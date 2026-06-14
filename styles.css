@@ -18,6 +18,7 @@ a {
 	background-color: #1f2937;
 	display: flex;
 	flex-direction: column;
+	padding: 1%;
 }
 
 header {
@@ -78,8 +79,8 @@ li > button:hover a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 24px;
-	margin: 42px;
+	gap: 128px;
+	margin: 24px;
 	padding: 8px;
 }
 
@@ -91,11 +92,12 @@ li > button:hover a {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 16px;
+	gap: 32px;
 }
 
 .hero-message > p {
 	line-height: 26px;
+	word-break: normal;
 }
 
 .btn-container {
@@ -135,8 +137,8 @@ button:hover {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 32px;
-	padding: 32px;
+	gap: 64px;
+	padding: 96px;
 }
 
 .card > h4 {
@@ -159,7 +161,7 @@ h3 {
 .card-container {
 	display: flex;
 	justify-content: center;
-	gap: 52px;
+	gap: 64px;
 }
 
 .card {
@@ -175,21 +177,20 @@ h3 {
 }
 
 .quote-container {
-	background-color: #1f2937;
-	padding: 32px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    width: 50%;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .quote {
-	width: 55%;
-	margin: auto;
-	font-size: 28px;
-	font-weight: 700;
-	font-style: italic;
-	text-align: center;
-	color: #f9faf8;
+    width: 90%;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    color: #f9faf8;
 }
 
 .quote-author {
@@ -202,10 +203,10 @@ h3 {
 }
 
 .cta-parent {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
 }
 
 .cta-container {
@@ -443,14 +444,13 @@ input[type="checkbox"]:focus-visible {
 
 .footer {
 	display: flex;
-	background-color: #1f2937;
 	padding: 30.5px;
 	justify-content: center;
 }
 h6 {
-	font-size: 12px;
-	color: #f9faf8;
-	font-weight: 400;
+    font-size: 14px;
+    color: #1f2937;
+    font-weight: 500;
 }
 /* 
 @media only screen and (min-width: 700px) {
